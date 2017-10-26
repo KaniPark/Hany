@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GHRepositories\\Hany\\core\\core\\core.csproj",
+      "projectUniqueName": "e:\\GHRepositories\\Hany\\core\\core\\core.csproj",
       "projectName": "core",
-      "projectPath": "E:\\GHRepositories\\Hany\\core\\core\\core.csproj",
+      "projectPath": "e:\\GHRepositories\\Hany\\core\\core\\core.csproj",
       "packagesPath": "C:\\Users\\hpark\\.nuget\\packages\\",
-      "outputPath": "E:\\GHRepositories\\Hany\\core\\core\\obj\\",
+      "outputPath": "e:\\GHRepositories\\Hany\\core\\core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
