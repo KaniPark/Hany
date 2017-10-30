@@ -3,32 +3,32 @@
  ************************************************************************************/
 class DysonMqttClient {
 
-    constructor (ip, port, userid, password){
+    constructor (host, port, userid, password){
         //console.log('hello dyson mqtt client constructors!');
-        this._ip        = ip;
+        this._host      = host;
         this._port      = port;
         this._userid    = userid;
         this._password  = password;
     }
 
-    get IP (){
-        return this._ip;
+    get Host (){
+        return this._host;
     }
 
-    get Port(){
+    get Port (){
         return this._port;
     }
 
-    get UserId(){
+    get UserId (){
         return this._userid;
     }
 
-    get Password(){
+    get Password (){
         return this._password;
     }
 
     Connect (){
-        console.log('Connected to ' + this._ip + ':' + this._port);
+        console.log('Connected to ' + this._host + ':' + this._port);
     }
 
     ChangeFanSpeed (speed){

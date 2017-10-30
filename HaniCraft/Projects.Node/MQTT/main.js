@@ -7,13 +7,13 @@
  * - https://www.joinc.co.kr/w/man/12/MQTT/Rest
  */
 const   DysonMqttClient     = require('./dyson-mqttclient'),
-        IpAddress           = '10.247.200.1',
+        Host                = '10.247.200.1',
         Port                = 1883,
         UserId              = 'userId',
         Password            = 'password';
 
 
-let _dysonMqttClient        = new DysonMqttClient(IpAddress, Port, UserId, Password);
+let _dysonMqttClient        = new DysonMqttClient(Host, Port, UserId, Password);
 
 _dysonMqttClient.Connect();
 
