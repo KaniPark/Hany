@@ -1,0 +1,19 @@
+{
+  "name": "mqtt_client",
+  "version": "1.0.0",
+  "description": "MQTT Client",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaniPark/Hany.git"
+  },
+  "author": "Hany",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaniPark/Hany/issues"
+  },
+  "homepage": "https://github.com/KaniPark/Hany#readme"
+}
