@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KaniPark/Hany/issues"
   },
-  "homepage": "https://github.com/KaniPark/Hany#readme"
+  "homepage": "https://github.com/KaniPark/Hany#readme",
+  "dependencies": {
+    "mqtt": "^2.13.1"
+  }
 }
