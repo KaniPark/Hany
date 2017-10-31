@@ -1,0 +1,1977 @@
+455/PE7-US-JDA2309A/status/connection: {
+    "msg": "HELLO",
+    "time": "2017-10-25T11:19:30.002Z",
+    "model": "X455",
+    "version": "21.03.08",
+    "protocol": "1.0.0",
+    "serialNumber": "PE7-US-JDA2309A",
+    "mac address": "C8:FF:77:F1:31:84",
+    "module hardware": "140762-01-07",
+    "module bootloader": "-.-.-.-",
+    "module software": "5221",
+    "module nwp": "2.7.0.0",
+    "product hardware": "306614-01-03",
+    "product bootloader": "000000.00.00",
+    "product software": "000027.19.59",
+    "reset-source": "PWUP"
+}455/PE7-US-JDA2309A/command: {
+    "msg": "REQUEST-CURRENT-STATE",
+    "time": "2017-10-31T01:43:17Z"
+}
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "CURRENT-STATE",
+    "time": "2017-10-31T01:43:16.000Z",
+    "mode-reason": "LAPP",
+    "state-reason": "MODE",
+    "dial": "OFF",
+    "rssi": "-23",
+    "product-state": {
+        "fmod": "OFF",
+        "fnst": "OFF",
+        "fnsp": "0004",
+        "qtar": "0003",
+        "oson": "OFF",
+        "rhtm": "ON",
+        "filf": "3717",
+        "ercd": "NONE",
+        "nmod": "OFF",
+        "wacd": "NONE",
+        "hmod": "HEAT",
+        "hmax": "3008",
+        "hsta": "OFF",
+        "ffoc": "OFF",
+        "tilt": "OK"
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}455/PE7-US-JDA2309A/status/current: {
+    "msg": "ENVIRONMENTAL-CURRENT-SENSOR-DATA",
+    "time": "2017-10-31T01:43:16.001Z",
+    "data": {
+        "tact": "OFF",
+        "hact": "OFF",
+        "pact": "0004",
+        "vact": "0005",
+        "sltm": "OFF"
+    }
+}
+455/PE7-US-JDA2309A/command: {
+    "msg": "STATE-SET",
+    "time": "2017-10-31T01:43:20Z",
+    "mode-reason": "LAPP",
+    "data": {
+        "fnsp": "0004",
+        "fmod": "FAN",
+        "oson": "OFF",
+        "sltm": "OFF",
+        "rhtm": "ON",
+        "rstf": "STET",
+        "qtar": "0003",
+        "nmod": "OFF",
+        "ffoc": "OFF",
+        "hmod": "HEAT",
+        "hmax": "3008"
+    }
+}455/PE7-US-JDA2309A/status/current: {
+    "msg": "STATE-CHANGE",
+    "time": "2017-10-31T01:43:19.000Z",
+    "mode-reason": "LAPP",
+    "state-reason": "MODE",
+    "product-state": {
+        "fmod": [
+            "OFF",
+            "FAN"
+        ],
+        "fnst": [
+            "OFF",
+            "FAN"
+        ],
+        "fnsp": [
+            "0004",
+            "0004"
+        ],
+        "qtar": [
+            "0003",
+            "0003"
+        ],
+        "oson": [
+            "OFF",
+            "OFF"
+        ],
+        "rhtm": [
+            "ON",
+            "ON"
+        ],
+        "filf": [
+            "3717",
+            "3717"
+        ],
+        "ercd": [
+            "NONE",
+            "NONE"
+        ],
+        "nmod": [
+            "OFF",
+            "OFF"
+        ],
+        "wacd": [
+            "NONE",
+            "NONE"
+        ],
+        "hmod": [
+            "HEAT",
+            "HEAT"
+        ],
+        "hmax": [
+            "3008",
+            "3008"
+        ],
+        "hsta": [
+            "OFF",
+            "OFF"
+        ],
+        "ffoc": [
+            "OFF",
+            "OFF"
+        ],
+        "tilt": [
+            "OK",
+            "OK"
+        ]
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "STATE-CHANGE",
+    "time": "2017-10-31T01:43:19.001Z",
+    "mode-reason": "LAPP",
+    "state-reason": "MODE",
+    "product-state": {
+        "fmod": [
+            "FAN",
+            "FAN"
+        ],
+        "fnst": [
+            "FAN",
+            "OFF"
+        ],
+        "fnsp": [
+            "0004",
+            "0004"
+        ],
+        "qtar": [
+            "0003",
+            "0003"
+        ],
+        "oson": [
+            "OFF",
+            "OFF"
+        ],
+        "rhtm": [
+            "ON",
+            "ON"
+        ],
+        "filf": [
+            "3717",
+            "3717"
+        ],
+        "ercd": [
+            "NONE",
+            "NONE"
+        ],
+        "nmod": [
+            "OFF",
+            "OFF"
+        ],
+        "wacd": [
+            "NONE",
+            "NONE"
+        ],
+        "hmod": [
+            "HEAT",
+            "HEAT"
+        ],
+        "hmax": [
+            "3008",
+            "3008"
+        ],
+        "hsta": [
+            "OFF",
+            "OFF"
+        ],
+        "ffoc": [
+            "OFF",
+            "OFF"
+        ],
+        "tilt": [
+            "OK",
+            "OK"
+        ]
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "STATE-CHANGE",
+    "time": "2017-10-31T01:43:20.000Z",
+    "mode-reason": "LAPP",
+    "state-reason": "MODE",
+    "product-state": {
+        "fmod": [
+            "FAN",
+            "FAN"
+        ],
+        "fnst": [
+            "OFF",
+            "FAN"
+        ],
+        "fnsp": [
+            "0004",
+            "0004"
+        ],
+        "qtar": [
+            "0003",
+            "0003"
+        ],
+        "oson": [
+            "OFF",
+            "OFF"
+        ],
+        "rhtm": [
+            "ON",
+            "ON"
+        ],
+        "filf": [
+            "3717",
+            "3717"
+        ],
+        "ercd": [
+            "NONE",
+            "NONE"
+        ],
+        "nmod": [
+            "OFF",
+            "OFF"
+        ],
+        "wacd": [
+            "NONE",
+            "NONE"
+        ],
+        "hmod": [
+            "HEAT",
+            "HEAT"
+        ],
+        "hmax": [
+            "3008",
+            "3008"
+        ],
+        "hsta": [
+            "OFF",
+            "HEAT"
+        ],
+        "ffoc": [
+            "OFF",
+            "OFF"
+        ],
+        "tilt": [
+            "OK",
+            "OK"
+        ]
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+
+455/PE7-US-JDA2309A/command: {
+    "msg": "STATE-SET",
+    "time": "2017-10-31T01:43:23Z",
+    "mode-reason": "LAPP",
+    "data": {
+        "fnsp": "0007",
+        "fmod": "FAN",
+        "oson": "OFF",
+        "sltm": "OFF",
+        "rhtm": "ON",
+        "rstf": "STET",
+        "qtar": "0003",
+        "nmod": "OFF",
+        "ffoc": "OFF",
+        "hmod": "HEAT",
+        "hmax": "3008"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "STATE-CHANGE",
+    "time": "2017-10-31T01:43:22.000Z",
+    "mode-reason": "LAPP",
+    "state-reason": "MODE",
+    "product-state": {
+        "fmod": [
+            "FAN",
+            "FAN"
+        ],
+        "fnst": [
+            "FAN",
+            "FAN"
+        ],
+        "fnsp": [
+            "0004",
+            "0007"
+        ],
+        "qtar": [
+            "0003",
+            "0003"
+        ],
+        "oson": [
+            "OFF",
+            "OFF"
+        ],
+        "rhtm": [
+            "ON",
+            "ON"
+        ],
+        "filf": [
+            "3717",
+            "3717"
+        ],
+        "ercd": [
+            "NONE",
+            "NONE"
+        ],
+        "nmod": [
+            "OFF",
+            "OFF"
+        ],
+        "wacd": [
+            "NONE",
+            "NONE"
+        ],
+        "hmod": [
+            "HEAT",
+            "HEAT"
+        ],
+        "hmax": [
+            "3008",
+            "3008"
+        ],
+        "hsta": [
+            "HEAT",
+            "HEAT"
+        ],
+        "ffoc": [
+            "OFF",
+            "OFF"
+        ],
+        "tilt": [
+            "OK",
+            "OK"
+        ]
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+
+455/PE7-US-JDA2309A/command: {
+    "msg": "STATE-SET",
+    "time": "2017-10-31T01:43:27Z",
+    "mode-reason": "LAPP",
+    "data": {
+        "fnsp": "0007",
+        "fmod": "FAN",
+        "oson": "OFF",
+        "sltm": "OFF",
+        "rhtm": "ON",
+        "rstf": "STET",
+        "qtar": "0003",
+        "nmod": "OFF",
+        "ffoc": "OFF",
+        "hmod": "OFF",
+        "hmax": "3008"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "STATE-CHANGE",
+    "time": "2017-10-31T01:43:26.000Z",
+    "mode-reason": "LAPP",
+    "state-reason": "MODE",
+    "product-state": {
+        "fmod": [
+            "FAN",
+            "FAN"
+        ],
+        "fnst": [
+            "FAN",
+            "FAN"
+        ],
+        "fnsp": [
+            "0007",
+            "0007"
+        ],
+        "qtar": [
+            "0003",
+            "0003"
+        ],
+        "oson": [
+            "OFF",
+            "OFF"
+        ],
+        "rhtm": [
+            "ON",
+            "ON"
+        ],
+        "filf": [
+            "3717",
+            "3717"
+        ],
+        "ercd": [
+            "NONE",
+            "NONE"
+        ],
+        "nmod": [
+            "OFF",
+            "OFF"
+        ],
+        "wacd": [
+            "NONE",
+            "NONE"
+        ],
+        "hmod": [
+            "HEAT",
+            "OFF"
+        ],
+        "hmax": [
+            "3008",
+            "3008"
+        ],
+        "hsta": [
+            "HEAT",
+            "OFF"
+        ],
+        "ffoc": [
+            "OFF",
+            "ON"
+        ],
+        "tilt": [
+            "OK",
+            "OK"
+        ]
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+
+455/PE7-US-JDA2309A/command: {
+    "msg": "STATE-SET",
+    "time": "2017-10-31T01:43:29Z",
+    "mode-reason": "LAPP",
+    "data": {
+        "fnsp": "0007",
+        "fmod": "FAN",
+        "oson": "ON",
+        "sltm": "OFF",
+        "rhtm": "ON",
+        "rstf": "STET",
+        "qtar": "0003",
+        "nmod": "OFF",
+        "ffoc": "ON",
+        "hmod": "OFF",
+        "hmax": "3008"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "STATE-CHANGE",
+    "time": "2017-10-31T01:43:28.000Z",
+    "mode-reason": "LAPP",
+    "state-reason": "MODE",
+    "product-state": {
+        "fmod": [
+            "FAN",
+            "FAN"
+        ],
+        "fnst": [
+            "FAN",
+            "FAN"
+        ],
+        "fnsp": [
+            "0007",
+            "0007"
+        ],
+        "qtar": [
+            "0003",
+            "0003"
+        ],
+        "oson": [
+            "OFF",
+            "ON"
+        ],
+        "rhtm": [
+            "ON",
+            "ON"
+        ],
+        "filf": [
+            "3717",
+            "3717"
+        ],
+        "ercd": [
+            "NONE",
+            "NONE"
+        ],
+        "nmod": [
+            "OFF",
+            "OFF"
+        ],
+        "wacd": [
+            "NONE",
+            "NONE"
+        ],
+        "hmod": [
+            "OFF",
+            "OFF"
+        ],
+        "hmax": [
+            "3008",
+            "3008"
+        ],
+        "hsta": [
+            "OFF",
+            "OFF"
+        ],
+        "ffoc": [
+            "ON",
+            "ON"
+        ],
+        "tilt": [
+            "OK",
+            "OK"
+        ]
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+
+455/PE7-US-JDA2309A/command: {
+    "msg": "STATE-SET",
+    "time": "2017-10-31T01:43:32Z",
+    "mode-reason": "LAPP",
+    "data": {
+        "fnsp": "0007",
+        "fmod": "FAN",
+        "oson": "ON",
+        "sltm": "OFF",
+        "rhtm": "ON",
+        "rstf": "STET",
+        "qtar": "0003",
+        "nmod": "OFF",
+        "ffoc": "OFF",
+        "hmod": "OFF",
+        "hmax": "3008"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "STATE-CHANGE",
+    "time": "2017-10-31T01:43:31.000Z",
+    "mode-reason": "LAPP",
+    "state-reason": "MODE",
+    "product-state": {
+        "fmod": [
+            "FAN",
+            "FAN"
+        ],
+        "fnst": [
+            "FAN",
+            "FAN"
+        ],
+        "fnsp": [
+            "0007",
+            "0007"
+        ],
+        "qtar": [
+            "0003",
+            "0003"
+        ],
+        "oson": [
+            "ON",
+            "ON"
+        ],
+        "rhtm": [
+            "ON",
+            "ON"
+        ],
+        "filf": [
+            "3717",
+            "3717"
+        ],
+        "ercd": [
+            "NONE",
+            "NONE"
+        ],
+        "nmod": [
+            "OFF",
+            "OFF"
+        ],
+        "wacd": [
+            "NONE",
+            "NONE"
+        ],
+        "hmod": [
+            "OFF",
+            "OFF"
+        ],
+        "hmax": [
+            "3008",
+            "3008"
+        ],
+        "hsta": [
+            "OFF",
+            "OFF"
+        ],
+        "ffoc": [
+            "ON",
+            "OFF"
+        ],
+        "tilt": [
+            "OK",
+            "OK"
+        ]
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+
+455/PE7-US-JDA2309A/command: {
+    "msg": "STATE-SET",
+    "time": "2017-10-31T01:43:34Z",
+    "mode-reason": "LAPP",
+    "data": {
+        "fnsp": "0007",
+        "fmod": "FAN",
+        "oson": "ON",
+        "sltm": "0015",
+        "rhtm": "ON",
+        "rstf": "STET",
+        "qtar": "0003",
+        "nmod": "OFF",
+        "ffoc": "OFF",
+        "hmod": "OFF",
+        "hmax": "3008"
+    }
+}
+
+455/PE7-US-JDA2309A/command: {
+    "msg": "REQUEST-CURRENT-STATE",
+    "time": "2017-10-31T01:43:34Z"
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "CURRENT-STATE",
+    "time": "2017-10-31T01:43:34.000Z",
+    "mode-reason": "LAPP",
+    "state-reason": "MODE",
+    "dial": "OFF",
+    "rssi": "-22",
+    "product-state": {
+        "fmod": "FAN",
+        "fnst": "FAN",
+        "fnsp": "0007",
+        "qtar": "0003",
+        "oson": "ON",
+        "rhtm": "ON",
+        "filf": "3717",
+        "ercd": "NONE",
+        "nmod": "OFF",
+        "wacd": "NONE",
+        "hmod": "OFF",
+        "hmax": "3008",
+        "hsta": "OFF",
+        "ffoc": "OFF",
+        "tilt": "OK"
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "CURRENT-STATE",
+    "time": "2017-10-31T01:43:34.001Z",
+    "mode-reason": "LAPP",
+    "state-reason": "MODE",
+    "dial": "OFF",
+    "rssi": "-16",
+    "product-state": {
+        "fmod": "FAN",
+        "fnst": "FAN",
+        "fnsp": "0007",
+        "qtar": "0003",
+        "oson": "ON",
+        "rhtm": "ON",
+        "filf": "3717",
+        "ercd": "NONE",
+        "nmod": "OFF",
+        "wacd": "NONE",
+        "hmod": "OFF",
+        "hmax": "3008",
+        "hsta": "OFF",
+        "ffoc": "OFF",
+        "tilt": "OK"
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "ENVIRONMENTAL-CURRENT-SENSOR-DATA",
+    "time": "2017-10-31T01:43:34.002Z",
+    "data": {
+        "tact": "OFF",
+        "hact": "OFF",
+        "pact": "0004",
+        "vact": "INIT",
+        "sltm": "0015"
+    }
+}
+
+455/PE7-US-JDA2309A/command: {
+    "msg": "REQUEST-CURRENT-STATE",
+    "time": "2017-10-31T01:43:35Z"
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "CURRENT-STATE",
+    "time": "2017-10-31T01:43:34.003Z",
+    "mode-reason": "LAPP",
+    "state-reason": "MODE",
+    "dial": "OFF",
+    "rssi": "-16",
+    "product-state": {
+        "fmod": "FAN",
+        "fnst": "FAN",
+        "fnsp": "0007",
+        "qtar": "0003",
+        "oson": "ON",
+        "rhtm": "ON",
+        "filf": "3717",
+        "ercd": "NONE",
+        "nmod": "OFF",
+        "wacd": "NONE",
+        "hmod": "OFF",
+        "hmax": "3008",
+        "hsta": "OFF",
+        "ffoc": "OFF",
+        "tilt": "OK"
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "ENVIRONMENTAL-CURRENT-SENSOR-DATA",
+    "time": "2017-10-31T01:43:34.004Z",
+    "data": {
+        "tact": "OFF",
+        "hact": "OFF",
+        "pact": "0004",
+        "vact": "INIT",
+        "sltm": "0015"
+    }
+}
+
+455/PE7-US-JDA2309A/command: {
+    "msg": "STATE-SET",
+    "time": "2017-10-31T01:43:38Z",
+    "mode-reason": "LAPP",
+    "data": {
+        "fnsp": "0004",
+        "fmod": "FAN",
+        "oson": "ON",
+        "sltm": "0015",
+        "rhtm": "ON",
+        "rstf": "STET",
+        "qtar": "0003",
+        "nmod": "ON",
+        "ffoc": "OFF",
+        "hmod": "OFF",
+        "hmax": "3008"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "STATE-CHANGE",
+    "time": "2017-10-31T01:43:37.000Z",
+    "mode-reason": "LAPP",
+    "state-reason": "MODE",
+    "product-state": {
+        "fmod": [
+            "FAN",
+            "FAN"
+        ],
+        "fnst": [
+            "FAN",
+            "FAN"
+        ],
+        "fnsp": [
+            "0007",
+            "0004"
+        ],
+        "qtar": [
+            "0003",
+            "0003"
+        ],
+        "oson": [
+            "ON",
+            "ON"
+        ],
+        "rhtm": [
+            "ON",
+            "ON"
+        ],
+        "filf": [
+            "3717",
+            "3717"
+        ],
+        "ercd": [
+            "NONE",
+            "NONE"
+        ],
+        "nmod": [
+            "OFF",
+            "ON"
+        ],
+        "wacd": [
+            "NONE",
+            "NONE"
+        ],
+        "hmod": [
+            "OFF",
+            "OFF"
+        ],
+        "hmax": [
+            "3008",
+            "3008"
+        ],
+        "hsta": [
+            "OFF",
+            "OFF"
+        ],
+        "ffoc": [
+            "OFF",
+            "OFF"
+        ],
+        "tilt": [
+            "OK",
+            "OK"
+        ]
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+
+455/PE7-US-JDA2309A/command: {
+    "msg": "REQUEST-CURRENT-STATE",
+    "time": "2017-10-31T01:43:39Z"
+}
+
+455/PE7-US-JDA2309A/command: {
+    "msg": "REQUEST-CURRENT-FAULTS",
+    "time": "2017-10-31T01:43:39Z"
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "CURRENT-STATE",
+    "time": "2017-10-31T01:43:38.001Z",
+    "mode-reason": "LAPP",
+    "state-reason": "MODE",
+    "dial": "OFF",
+    "rssi": "-14",
+    "product-state": {
+        "fmod": "FAN",
+        "fnst": "FAN",
+        "fnsp": "0004",
+        "qtar": "0003",
+        "oson": "ON",
+        "rhtm": "ON",
+        "filf": "3717",
+        "ercd": "NONE",
+        "nmod": "ON",
+        "wacd": "NONE",
+        "hmod": "OFF",
+        "hmax": "3008",
+        "hsta": "OFF",
+        "ffoc": "OFF",
+        "tilt": "OK"
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "ENVIRONMENTAL-CURRENT-SENSOR-DATA",
+    "time": "2017-10-31T01:43:38.002Z",
+    "data": {
+        "tact": "OFF",
+        "hact": "OFF",
+        "pact": "0004",
+        "vact": "INIT",
+        "sltm": "0015"
+    }
+}
+
+455/PE7-US-JDA2309A/status/faults: {
+    "msg": "CURRENT-FAULTS",
+    "time": "2017-10-31T01:43:38.003Z",
+    "product-errors": {
+        "cnfg": "OK",
+        "stto": "OK",
+        "hall": "OK",
+        "hamp": "OK",
+        "stal": "OK",
+        "shrt": "OK",
+        "wdog": "OK",
+        "dsts": "OK",
+        "vocs": "OK",
+        "t&hs": "OK",
+        "ibus": "OK",
+        "ilss": "OK",
+        "nvmw": "OK",
+        "nvmr": "OK",
+        "hioc": "OK",
+        "hilc": "OK",
+        "htri": "OK",
+        "hamb": "OK",
+        "povi": "OK",
+        "htcf": "OK",
+        "hvmi": "OK",
+        "tilt": "OK",
+        "wfhb": "OK",
+        "wfcp": "OK"
+    },
+    "product-warnings": {
+        "fltr": "OK"
+    },
+    "module-errors": {
+        "szme": "OK",
+        "szmw": "OK",
+        "szps": "OK",
+        "szpe": "OK",
+        "szpw": "OK",
+        "szed": "OK",
+        "lspd": "OK",
+        "szpi": "OK",
+        "szpp": "OK",
+        "szhv": "OK",
+        "szbv": "OK",
+        "szav": "OK"
+    },
+    "module-warnings": {
+        "srnk": "FAIL",
+        "stac": "OK",
+        "strs": "OK",
+        "srmi": "OK",
+        "srmu": "OK",
+        "nwcs": "OK",
+        "nwts": "OK",
+        "nwps": "OK",
+        "nwss": "OK",
+        "nwds": "OK"
+    }
+}
+
+455/PE7-US-JDA2309A/command: {
+    "msg": "STATE-SET",
+    "time": "2017-10-31T01:43:43Z",
+    "mode-reason": "LAPP",
+    "data": {
+        "fnsp": "0004",
+        "fmod": "AUTO",
+        "oson": "ON",
+        "sltm": "0015",
+        "rhtm": "ON",
+        "rstf": "STET",
+        "qtar": "0003",
+        "nmod": "ON",
+        "ffoc": "OFF",
+        "hmod": "OFF",
+        "hmax": "3008"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "STATE-CHANGE",
+    "time": "2017-10-31T01:43:42.000Z",
+    "mode-reason": "LAPP",
+    "state-reason": "MODE",
+    "product-state": {
+        "fmod": [
+            "FAN",
+            "AUTO"
+        ],
+        "fnst": [
+            "FAN",
+            "FAN"
+        ],
+        "fnsp": [
+            "0004",
+            "AUTO"
+        ],
+        "qtar": [
+            "0003",
+            "0003"
+        ],
+        "oson": [
+            "ON",
+            "ON"
+        ],
+        "rhtm": [
+            "ON",
+            "ON"
+        ],
+        "filf": [
+            "3717",
+            "3717"
+        ],
+        "ercd": [
+            "NONE",
+            "NONE"
+        ],
+        "nmod": [
+            "ON",
+            "ON"
+        ],
+        "wacd": [
+            "NONE",
+            "NONE"
+        ],
+        "hmod": [
+            "OFF",
+            "OFF"
+        ],
+        "hmax": [
+            "3008",
+            "3008"
+        ],
+        "hsta": [
+            "OFF",
+            "OFF"
+        ],
+        "ffoc": [
+            "OFF",
+            "OFF"
+        ],
+        "tilt": [
+            "OK",
+            "OK"
+        ]
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+
+455/PE7-US-JDA2309A/command: {
+    "msg": "STATE-SET",
+    "time": "2017-10-31T01:43:46Z",
+    "mode-reason": "LAPP",
+    "data": {
+        "fnsp": "AUTO",
+        "fmod": "AUTO",
+        "oson": "ON",
+        "sltm": "0015",
+        "rhtm": "ON",
+        "rstf": "STET",
+        "qtar": "0003",
+        "nmod": "ON",
+        "ffoc": "OFF",
+        "hmod": "HEAT",
+        "hmax": "3008"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "STATE-CHANGE",
+    "time": "2017-10-31T01:43:45.000Z",
+    "mode-reason": "LAPP",
+    "state-reason": "MODE",
+    "product-state": {
+        "fmod": [
+            "AUTO",
+            "AUTO"
+        ],
+        "fnst": [
+            "FAN",
+            "FAN"
+        ],
+        "fnsp": [
+            "AUTO",
+            "AUTO"
+        ],
+        "qtar": [
+            "0003",
+            "0003"
+        ],
+        "oson": [
+            "ON",
+            "ON"
+        ],
+        "rhtm": [
+            "ON",
+            "ON"
+        ],
+        "filf": [
+            "3717",
+            "3717"
+        ],
+        "ercd": [
+            "NONE",
+            "NONE"
+        ],
+        "nmod": [
+            "ON",
+            "ON"
+        ],
+        "wacd": [
+            "NONE",
+            "NONE"
+        ],
+        "hmod": [
+            "OFF",
+            "HEAT"
+        ],
+        "hmax": [
+            "3008",
+            "3008"
+        ],
+        "hsta": [
+            "OFF",
+            "OFF"
+        ],
+        "ffoc": [
+            "OFF",
+            "ON"
+        ],
+        "tilt": [
+            "OK",
+            "OK"
+        ]
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "STATE-CHANGE",
+    "time": "2017-10-31T01:43:45.001Z",
+    "mode-reason": "LAPP",
+    "state-reason": "MODE",
+    "product-state": {
+        "fmod": [
+            "AUTO",
+            "AUTO"
+        ],
+        "fnst": [
+            "FAN",
+            "FAN"
+        ],
+        "fnsp": [
+            "AUTO",
+            "AUTO"
+        ],
+        "qtar": [
+            "0003",
+            "0003"
+        ],
+        "oson": [
+            "ON",
+            "ON"
+        ],
+        "rhtm": [
+            "ON",
+            "ON"
+        ],
+        "filf": [
+            "3717",
+            "3717"
+        ],
+        "ercd": [
+            "NONE",
+            "NONE"
+        ],
+        "nmod": [
+            "ON",
+            "ON"
+        ],
+        "wacd": [
+            "NONE",
+            "NONE"
+        ],
+        "hmod": [
+            "HEAT",
+            "HEAT"
+        ],
+        "hmax": [
+            "3008",
+            "3008"
+        ],
+        "hsta": [
+            "OFF",
+            "HEAT"
+        ],
+        "ffoc": [
+            "ON",
+            "ON"
+        ],
+        "tilt": [
+            "OK",
+            "OK"
+        ]
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+
+455/PE7-US-JDA2309A/command: {
+    "msg": "STATE-SET",
+    "time": "2017-10-31T01:43:48Z",
+    "mode-reason": "LAPP",
+    "data": {
+        "fnsp": "AUTO",
+        "fmod": "OFF",
+        "oson": "ON",
+        "sltm": "OFF",
+        "rhtm": "ON",
+        "rstf": "STET",
+        "qtar": "0003",
+        "nmod": "ON",
+        "ffoc": "ON",
+        "hmod": "HEAT",
+        "hmax": "3008"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "STATE-CHANGE",
+    "time": "2017-10-31T01:43:48.000Z",
+    "mode-reason": "LAPP",
+    "state-reason": "MODE",
+    "product-state": {
+        "fmod": [
+            "AUTO",
+            "OFF"
+        ],
+        "fnst": [
+            "FAN",
+            "OFF"
+        ],
+        "fnsp": [
+            "AUTO",
+            "AUTO"
+        ],
+        "qtar": [
+            "0003",
+            "0003"
+        ],
+        "oson": [
+            "ON",
+            "OFF"
+        ],
+        "rhtm": [
+            "ON",
+            "ON"
+        ],
+        "filf": [
+            "3717",
+            "3717"
+        ],
+        "ercd": [
+            "NONE",
+            "NONE"
+        ],
+        "nmod": [
+            "ON",
+            "ON"
+        ],
+        "wacd": [
+            "NONE",
+            "NONE"
+        ],
+        "hmod": [
+            "HEAT",
+            "HEAT"
+        ],
+        "hmax": [
+            "3008",
+            "3008"
+        ],
+        "hsta": [
+            "HEAT",
+            "HEAT"
+        ],
+        "ffoc": [
+            "ON",
+            "ON"
+        ],
+        "tilt": [
+            "OK",
+            "OK"
+        ]
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "STATE-CHANGE",
+    "time": "2017-10-31T01:43:48.001Z",
+    "mode-reason": "LAPP",
+    "state-reason": "MODE",
+    "product-state": {
+        "fmod": [
+            "OFF",
+            "OFF"
+        ],
+        "fnst": [
+            "OFF",
+            "OFF"
+        ],
+        "fnsp": [
+            "AUTO",
+            "AUTO"
+        ],
+        "qtar": [
+            "0003",
+            "0003"
+        ],
+        "oson": [
+            "OFF",
+            "OFF"
+        ],
+        "rhtm": [
+            "ON",
+            "ON"
+        ],
+        "filf": [
+            "3717",
+            "3717"
+        ],
+        "ercd": [
+            "NONE",
+            "NONE"
+        ],
+        "nmod": [
+            "ON",
+            "ON"
+        ],
+        "wacd": [
+            "NONE",
+            "NONE"
+        ],
+        "hmod": [
+            "HEAT",
+            "HEAT"
+        ],
+        "hmax": [
+            "3008",
+            "3008"
+        ],
+        "hsta": [
+            "HEAT",
+            "OFF"
+        ],
+        "ffoc": [
+            "ON",
+            "ON"
+        ],
+        "tilt": [
+            "OK",
+            "OK"
+        ]
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "STATE-CHANGE",
+    "time": "2017-10-31T01:43:48.002Z",
+    "mode-reason": "LAPP",
+    "state-reason": "MODE",
+    "product-state": {
+        "fmod": [
+            "OFF",
+            "OFF"
+        ],
+        "fnst": [
+            "OFF",
+            "OFF"
+        ],
+        "fnsp": [
+            "AUTO",
+            "AUTO"
+        ],
+        "qtar": [
+            "0003",
+            "0003"
+        ],
+        "oson": [
+            "OFF",
+            "OFF"
+        ],
+        "rhtm": [
+            "ON",
+            "ON"
+        ],
+        "filf": [
+            "3717",
+            "3717"
+        ],
+        "ercd": [
+            "NONE",
+            "NONE"
+        ],
+        "nmod": [
+            "ON",
+            "OFF"
+        ],
+        "wacd": [
+            "NONE",
+            "NONE"
+        ],
+        "hmod": [
+            "HEAT",
+            "HEAT"
+        ],
+        "hmax": [
+            "3008",
+            "3008"
+        ],
+        "hsta": [
+            "OFF",
+            "OFF"
+        ],
+        "ffoc": [
+            "ON",
+            "ON"
+        ],
+        "tilt": [
+            "OK",
+            "OK"
+        ]
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+// Without wifi
+455/PE7-US-JDA2309A/status/connection: {
+    "msg": "HELLO",
+    "time": "2017-10-25T11:19:30.002Z",
+    "model": "X455",
+    "version": "21.03.08",
+    "protocol": "1.0.0",
+    "serialNumber": "PE7-US-JDA2309A",
+    "mac address": "C8:FF:77:F1:31:84",
+    "module hardware": "140762-01-07",
+    "module bootloader": "-.-.-.-",
+    "module software": "5221",
+    "module nwp": "2.7.0.0",
+    "product hardware": "306614-01-03",
+    "product bootloader": "000000.00.00",
+    "product software": "000027.19.59",
+    "reset-source": "PWUP"
+}455/PE7-US-JDA2309A/status/current: {
+    "msg": "CURRENT-STATE",
+    "time": "2017-10-31T01:48:42.000Z",
+    "mode-reason": "LAPP",
+    "state-reason": "MODE",
+    "dial": "OFF",
+    "rssi": "-22",
+    "product-state": {
+        "fmod": "OFF",
+        "fnst": "OFF",
+        "fnsp": "AUTO",
+        "qtar": "0003",
+        "oson": "OFF",
+        "rhtm": "ON",
+        "filf": "3717",
+        "ercd": "NONE",
+        "nmod": "OFF",
+        "wacd": "NONE",
+        "hmod": "HEAT",
+        "hmax": "3008",
+        "hsta": "OFF",
+        "ffoc": "ON",
+        "tilt": "OK"
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}455/PE7-US-JDA2309A/status/current: {
+    "msg": "ENVIRONMENTAL-CURRENT-SENSOR-DATA",
+    "time": "2017-10-31T01:48:42.001Z",
+    "data": {
+        "tact": "OFF",
+        "hact": "OFF",
+        "pact": "0003",
+        "vact": "0000",
+        "sltm": "OFF"
+    }
+}
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "STATE-CHANGE",
+    "time": "2017-10-31T01:48:56.000Z",
+    "mode-reason": "RAPP",
+    "state-reason": "MODE",
+    "product-state": {
+        "fmod": [
+            "OFF",
+            "AUTO"
+        ],
+        "fnst": [
+            "OFF",
+            "FAN"
+        ],
+        "fnsp": [
+            "AUTO",
+            "AUTO"
+        ],
+        "qtar": [
+            "0003",
+            "0003"
+        ],
+        "oson": [
+            "OFF",
+            "OFF"
+        ],
+        "rhtm": [
+            "ON",
+            "ON"
+        ],
+        "filf": [
+            "3717",
+            "3717"
+        ],
+        "ercd": [
+            "NONE",
+            "NONE"
+        ],
+        "nmod": [
+            "OFF",
+            "OFF"
+        ],
+        "wacd": [
+            "NONE",
+            "NONE"
+        ],
+        "hmod": [
+            "HEAT",
+            "HEAT"
+        ],
+        "hmax": [
+            "3008",
+            "3008"
+        ],
+        "hsta": [
+            "OFF",
+            "OFF"
+        ],
+        "ffoc": [
+            "ON",
+            "ON"
+        ],
+        "tilt": [
+            "OK",
+            "OK"
+        ]
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "STATE-CHANGE",
+    "time": "2017-10-31T01:48:56.001Z",
+    "mode-reason": "RAPP",
+    "state-reason": "MODE",
+    "product-state": {
+        "fmod": [
+            "AUTO",
+            "AUTO"
+        ],
+        "fnst": [
+            "FAN",
+            "FAN"
+        ],
+        "fnsp": [
+            "AUTO",
+            "AUTO"
+        ],
+        "qtar": [
+            "0003",
+            "0003"
+        ],
+        "oson": [
+            "OFF",
+            "OFF"
+        ],
+        "rhtm": [
+            "ON",
+            "ON"
+        ],
+        "filf": [
+            "3717",
+            "3717"
+        ],
+        "ercd": [
+            "NONE",
+            "NONE"
+        ],
+        "nmod": [
+            "OFF",
+            "OFF"
+        ],
+        "wacd": [
+            "NONE",
+            "NONE"
+        ],
+        "hmod": [
+            "HEAT",
+            "HEAT"
+        ],
+        "hmax": [
+            "3008",
+            "3008"
+        ],
+        "hsta": [
+            "OFF",
+            "HEAT"
+        ],
+        "ffoc": [
+            "ON",
+            "ON"
+        ],
+        "tilt": [
+            "OK",
+            "OK"
+        ]
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "CURRENT-STATE",
+    "time": "2017-10-31T01:48:57.000Z",
+    "mode-reason": "RAPP",
+    "state-reason": "MODE",
+    "dial": "OFF",
+    "rssi": "-23",
+    "product-state": {
+        "fmod": "AUTO",
+        "fnst": "FAN",
+        "fnsp": "AUTO",
+        "qtar": "0003",
+        "oson": "OFF",
+        "rhtm": "ON",
+        "filf": "3717",
+        "ercd": "NONE",
+        "nmod": "OFF",
+        "wacd": "NONE",
+        "hmod": "HEAT",
+        "hmax": "3008",
+        "hsta": "HEAT",
+        "ffoc": "ON",
+        "tilt": "OK"
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "ENVIRONMENTAL-CURRENT-SENSOR-DATA",
+    "time": "2017-10-31T01:48:57.001Z",
+    "data": {
+        "tact": "2998",
+        "hact": "0058",
+        "pact": "0003",
+        "vact": "INIT",
+        "sltm": "OFF"
+    }
+}
+
+455/PE7-US-JDA2309A/status/faults: {
+    "msg": "CURRENT-FAULTS",
+    "time": "2017-10-31T01:48:57.002Z",
+    "product-errors": {
+        "cnfg": "OK",
+        "stto": "OK",
+        "hall": "OK",
+        "hamp": "OK",
+        "stal": "OK",
+        "shrt": "OK",
+        "wdog": "OK",
+        "dsts": "OK",
+        "vocs": "OK",
+        "t&hs": "OK",
+        "ibus": "OK",
+        "ilss": "OK",
+        "nvmw": "OK",
+        "nvmr": "OK",
+        "hioc": "OK",
+        "hilc": "OK",
+        "htri": "OK",
+        "hamb": "OK",
+        "povi": "OK",
+        "htcf": "OK",
+        "hvmi": "OK",
+        "tilt": "OK",
+        "wfhb": "OK",
+        "wfcp": "OK"
+    },
+    "product-warnings": {
+        "fltr": "OK"
+    },
+    "module-errors": {
+        "szme": "OK",
+        "szmw": "OK",
+        "szps": "OK",
+        "szpe": "OK",
+        "szpw": "OK",
+        "szed": "OK",
+        "lspd": "OK",
+        "szpi": "OK",
+        "szpp": "OK",
+        "szhv": "OK",
+        "szbv": "OK",
+        "szav": "OK"
+    },
+    "module-warnings": {
+        "srnk": "FAIL",
+        "stac": "OK",
+        "strs": "OK",
+        "srmi": "OK",
+        "srmu": "OK",
+        "nwcs": "OK",
+        "nwts": "OK",
+        "nwps": "OK",
+        "nwss": "OK",
+        "nwds": "OK"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "STATE-CHANGE",
+    "time": "2017-10-31T01:49:02.000Z",
+    "mode-reason": "RAPP",
+    "state-reason": "MODE",
+    "product-state": {
+        "fmod": [
+            "AUTO",
+            "FAN"
+        ],
+        "fnst": [
+            "FAN",
+            "FAN"
+        ],
+        "fnsp": [
+            "AUTO",
+            "0004"
+        ],
+        "qtar": [
+            "0003",
+            "0003"
+        ],
+        "oson": [
+            "OFF",
+            "OFF"
+        ],
+        "rhtm": [
+            "ON",
+            "ON"
+        ],
+        "filf": [
+            "3717",
+            "3717"
+        ],
+        "ercd": [
+            "NONE",
+            "NONE"
+        ],
+        "nmod": [
+            "OFF",
+            "OFF"
+        ],
+        "wacd": [
+            "NONE",
+            "NONE"
+        ],
+        "hmod": [
+            "HEAT",
+            "HEAT"
+        ],
+        "hmax": [
+            "3008",
+            "3008"
+        ],
+        "hsta": [
+            "HEAT",
+            "HEAT"
+        ],
+        "ffoc": [
+            "ON",
+            "ON"
+        ],
+        "tilt": [
+            "OK",
+            "OK"
+        ]
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}
+
+455/PE7-US-JDA2309A/status/current: {
+    "msg": "STATE-CHANGE",
+    "time": "2017-10-31T01:49:09.000Z",
+    "mode-reason": "RAPP",
+    "state-reason": "MODE",
+    "product-state": {
+        "fmod": [
+            "FAN",
+            "OFF"
+        ],
+        "fnst": [
+            "FAN",
+            "OFF"
+        ],
+        "fnsp": [
+            "0004",
+            "0004"
+        ],
+        "qtar": [
+            "0003",
+            "0003"
+        ],
+        "oson": [
+            "OFF",
+            "OFF"
+        ],
+        "rhtm": [
+            "ON",
+            "ON"
+        ],
+        "filf": [
+            "3717",
+            "3717"
+        ],
+        "ercd": [
+            "NONE",
+            "NONE"
+        ],
+        "nmod": [
+            "OFF",
+            "OFF"
+        ],
+        "wacd": [
+            "NONE",
+            "NONE"
+        ],
+        "hmod": [
+            "HEAT",
+            "HEAT"
+        ],
+        "hmax": [
+            "3008",
+            "3008"
+        ],
+        "hsta": [
+            "HEAT",
+            "OFF"
+        ],
+        "ffoc": [
+            "ON",
+            "ON"
+        ],
+        "tilt": [
+            "OK",
+            "OK"
+        ]
+    },
+    "scheduler": {
+        "srsc": "eb92",
+        "dstv": "0001",
+        "tzid": "0001"
+    }
+}

@@ -1,7 +1,9 @@
 /************************************************************************************
  * Dyson Pure Hot + Cool Link MQTT Client.
  ************************************************************************************/
-class DysonMqttClient {
+"use strict"
+
+ class DysonMqttClient {
 
     constructor (host, port, userid, password){
         //console.log('hello dyson mqtt client constructors!');
@@ -9,6 +11,7 @@ class DysonMqttClient {
         this._port      = port;
         this._userid    = userid;
         this._password  = password;
+        this._mqtt      = require('mqtt');
     }
 
     get Host (){
@@ -28,7 +31,16 @@ class DysonMqttClient {
     }
 
     Connect (){
-        console.log('Connected to ' + this._host + ':' + this._port);
+        //console.log('Connected to ' + this._host + ':' + this._port);
+
+        let _client = this._mqtt.connect(this._host, {username: this._userid, password: this._password});
+        let _topic = '455/' + this._userid + '/#';
+
+        _client.subscribe(_topic);
+
+        _client.on('message', function(topic, message){
+            console.log(topic + ' : ' + message + '\n');
+        });
     }
 
     ChangeFanSpeed (speed){

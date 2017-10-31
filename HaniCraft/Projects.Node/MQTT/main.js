@@ -6,11 +6,13 @@
  * - https://www.npmjs.com/package/homebridge-dyson-fan
  * - https://www.joinc.co.kr/w/man/12/MQTT/Rest
  */
+"use strict"
+
 const   DysonMqttClient     = require('./dyson-mqttclient'),
-        Host                = '10.247.200.1',
+        Host                = 'mqtt://192.168.0.38',
         Port                = 1883,
-        UserId              = 'userId',
-        Password            = 'password';
+        UserId              = '',
+        Password            = '';
 
 
 let _dysonMqttClient        = new DysonMqttClient(Host, Port, UserId, Password);
