@@ -1,46 +1,82 @@
 /************************************************************************************
  * Dyson Pure Hot + Cool Link MQTT Client.
  ************************************************************************************/
-"use strict"
+'use strict';
 
- class DysonMqttClient {
+/**
+ * Module dependencies
+ */
+const MQTT = require('mqtt');
 
-    constructor (host, port, userid, password){
+/**
+ * DysonMqttClient Class
+ */
+class DysonMqttClient {
+
+    constructor (host, port, username, password, model){
         //console.log('hello dyson mqtt client constructors!');
         this._host      = host;
-        this._port      = port;
-        this._userid    = userid;
+        this._username  = username;
         this._password  = password;
-        this._mqtt      = require('mqtt');
+        this._model     = model;
+
+        
     }
 
-    get Host (){
+    get host () {
         return this._host;
     }
 
-    get Port (){
-        return this._port;
+    get userName () {
+        return this._username;
     }
 
-    get UserId (){
-        return this._userid;
-    }
-
-    get Password (){
+    get password () {
         return this._password;
     }
 
-    Connect (){
-        //console.log('Connected to ' + this._host + ':' + this._port);
+    get client () {
 
-        let _client = this._mqtt.connect(this._host, {username: this._userid, password: this._password});
-        let _topic = '455/' + this._userid + '/#';
+        let _client = MQTT.connect (this._host, {username: this._username, password: this._password});
+        
+        _client.on('connect', this.onConnect);
+        _client.on('reconnect', this.onReconnect);
+        _client.on('close', this.onClose);
+        _client.on('offline', this.onOffline);
+        _client.on('error', this.onError);
+        _client.on('message', this.onMessage);
+        _client.on('packetsend', this.onPacketSend);
+        _client.on('packetreceive', this.onPacketReceive);
 
-        _client.subscribe(_topic);
+        return _client;
+    }
 
-        _client.on('message', function(topic, message){
-            console.log(topic + ' : ' + message + '\n');
-        });
+    /**
+     * @param {string} topic
+     * @param {string|Buffer} message
+     * @param {IClientPublishOptions} options
+     * @param {PacketCallback} callback
+     */
+    _publish (topic, message, options, callback) {
+
+        let _client = this.client;
+
+        _client.publish(topic, message, options, callback);
+        _client.end();
+    }
+
+    /**
+     * @param {String|Array|Object} topic
+     * @param {Object} options
+     * @param {Function} callback
+     */
+    _subscribe (topic, options, callback) {
+        
+        let _client = this.client;
+
+        _client.subscribe(topic, options, callback);
+
+        return _client;
     }
 
     ChangeFanSpeed (speed){
@@ -53,6 +89,41 @@
 
     NightModeOff(){
         console.log('Night mode off');
+    }
+
+    /**
+     * 
+     */
+    onConnect (connack){
+        console.log('onConnect');
+    }
+
+    onReconnect (){
+        console.log('onReconnect');
+    }
+
+    onClose (){
+        console.log('onClose');
+    }
+
+    onOffline (){
+        console.log('onOffline');
+    }
+
+    onError (error){
+        console.log('onError');
+    }
+
+    onMessage (topic, message, packet){
+        console.log('onMessage');
+    }
+
+    onPacketSend (packet){
+        console.log('onPacketSend');
+    }
+
+    onPacketReceive (packet){
+        console.log('onPacketReceive');
     }
 
 };

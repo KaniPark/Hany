@@ -9,15 +9,18 @@
 "use strict"
 
 const   DysonMqttClient     = require('./dyson-mqttclient'),
-        Host                = 'mqtt://192.168.0.38',
-        Port                = 1883,
+        Host                = 'mqtt://192.168.0.38:1883',
         UserId              = '',
-        Password            = '';
+        Password            = '',
+        Model               = '455';
 
 
-let _dysonMqttClient        = new DysonMqttClient(Host, Port, UserId, Password);
+let _dysonMqttClient        = new DysonMqttClient(Host, UserId, Password, Model);
 
-_dysonMqttClient.Connect();
+_dysonMqttClient.publish();
+
+//console.log(_dysonMqttClient.client);
+//_dysonMqttClient.Connect();
 
 /*
 var mqtt    = require('mqtt');
